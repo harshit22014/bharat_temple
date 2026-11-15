@@ -1,0 +1,11 @@
+<!doctype html>
+<html lang="hi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>All Temples | Bharat Mandir Darshan</title><link rel="stylesheet" href="css/style.css"></head>
+<body>
+<header class="site-header"><a class="brand" href="index.html"><span class="brand-mark">ॐ</span><span>Bharat <b>Mandir Darshan</b></span></a><button class="menu-toggle" aria-label="Menu" onclick="toggleMenu()">☰</button><nav id="mainNav"><a href="index.html">Home</a><a class="active" href="temples.html">All Temples</a><a href="about.html">About</a><a href="contact.html">Contact</a></nav></header>
+<main><section class="page-hero"><p class="eyebrow">भारत के अलग-अलग राज्यों से</p><h1>मंदिरों की पूरी सूची</h1><p>नाम, राज्य, जिला या देवता के आधार पर मंदिर खोजें।</p></section>
+<section class="section">
+<div class="filters"><input id="searchInput" type="search" placeholder="मंदिर, राज्य या जिला खोजें..."><select id="stateFilter"><option value="">सभी राज्य</option></select><select id="deityFilter"><option value="">सभी श्रेणियाँ</option><option>Shiva</option><option>Shakti</option><option>Vishnu</option><option>Surya</option><option>Heritage</option><option>Mahabharata</option></select></div>
+<p class="result-count" id="resultCount"></p><div class="temple-grid" id="allTemples"></div><p id="noResults" class="no-results" hidden>कोई मंदिर नहीं मिला। दूसरा नाम या राज्य खोजें।</p>
+</section></main><footer><div><b>Bharat Mandir Darshan</b><p>इतिहास, परंपरा और विरासत।</p></div><p>© 2026</p></footer>
+<script src="js/temples.js"></script><script src="js/app.js"></script></body></html>
